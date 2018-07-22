@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "CI/CD test jenkins",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "mocha 'test/test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benkorlems/nodejs-app.git"
+  },
+  "author": "ebenezer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benkorlems/nodejs-app/issues"
+  },
+  "homepage": "https://github.com/benkorlems/nodejs-app#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  }
+}
